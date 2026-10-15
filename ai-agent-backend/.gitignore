@@ -1,1 +1,70 @@
 # .gitignore
+# Practice notebooks
+practice_notebooks/
+**/practice_notebooks/
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# API keys and credentials
+secrets/
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
